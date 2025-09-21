@@ -1,0 +1,136 @@
+
+.showcase-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: var(--white);
+  color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', 'Avenir', Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 900px) {
+  .showcase-header {
+    margin-top: 5rem;
+  }
+  .showcase-main {
+    max-width: 100vw;
+    width: 100vw;
+    border-radius: 0;
+    padding: 3.5rem 0 3rem 0;
+    font-size: 1.2rem;
+    box-shadow: none;
+  }
+  .showcase-header h1 {
+    font-size: 3.5rem;
+  }
+  .showcase-header h2 {
+    font-size: 2rem;
+  }
+  .showcase-badges {
+    gap: 2.5rem;
+  }
+  .showcase-footer {
+    font-size: 1.1rem;
+  }
+}
+
+/* Color palette */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #3f4b6f;
+  --purple: #643e4f;
+  --red: #944e54;
+}
+
+.showcase-container {
+  min-height: 100vh;
+  min-width: 100%;
+  background: var(--white);
+  color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', 'Avenir', Helvetica, Arial, sans-serif;
+  padding: 0 1rem;
+}
+
+.showcase-header {
+  margin-top: 3rem;
+  text-align: center;
+}
+.showcase-header h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--purple);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+.showcase-header h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--blue);
+  margin-bottom: 2rem;
+}
+
+.showcase-main {
+  max-width: 100vw;
+  width: 100vw;
+  background: var(--white);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 2.5rem 0 2rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.showcase-badges {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px 0 rgba(100,62,79,0.08);
+}
+.ios-badge {
+  background: var(--blue);
+  color: var(--white);
+}
+.ios-badge:hover {
+  background: var(--purple);
+}
+.android-badge {
+  background: var(--red);
+  color: var(--white);
+}
+.android-badge:hover {
+  background: var(--purple);
+}
+
+.showcase-image {
+  margin-top: 1.5rem;
+  min-height: 120px;
+  /* Add an image or illustration here if desired */
+}
+
+.showcase-footer {
+  margin-bottom: 2rem;
+  color: var(--blue);
+  font-size: 1rem;
+  text-align: center;
+}
