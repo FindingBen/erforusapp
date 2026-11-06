@@ -22,11 +22,11 @@ function App() {
             </p>
             <div className="platform-note">
               <span className="platform-dot" aria-hidden="true" />
-              Available on iOS <span aria-hidden="true">·</span> Android coming soon
+              Available on iOS <span className="platform-dot" aria-hidden="true" /> Available on Android
             </div>
           </div>
           <div className="app-mark">
-            <img src="/erforusapp/bikeLogo.png" alt="Erforus bike pump finder app" />
+            <img src="/erforusapp/newLogo.png" alt="Erforus bike pump finder app" />
           </div>
           <div className="hero-decoration" aria-hidden="true" />
         </section>
